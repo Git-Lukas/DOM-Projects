@@ -4,7 +4,6 @@ const viewBtn = document.querySelector('.view-btn')
 const colorText = document.querySelector('.color-text')
 const colorDiv = document.querySelector('.view-color')
 
-
 colorDiv.style.backgroundColor = defaultColor
 chooseInput.value = defaultColor
 
