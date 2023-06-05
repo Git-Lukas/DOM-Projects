@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="select container">
+            <div class="fruit-container">
+                <h5 class="fruit-text">Strawberry 🍓</h5>
+                <span class="price">$ 6.0</span> 
+                <button type="submit" class="item-btn" data-fruit="Strawberry" data-price=6>BUY</button>
+            </div>
+    
+            <div class="fruit-container">
+                <h5 class="fruit-text">Banana 🍌</h5> 
+                <span class="price">$ 3.5</span> 
+                <button type="submit" class="item-btn" data-fruit="Banana" data-price=3.5>BUY</button>
+            </div>
+            
+            <div class="fruit-container">
+                <h5 class="fruit-text">Apple 🍏</h5> 
+                <span class="price">$ 2.0</span> 
+                <button type="submit" class="item-btn" data-fruit="Apple" data-price=2.5>BUY</button>
+        </div>
+    </div>
+    <div class="cart container">
+        <ul class="cart-fruits">
+            <!-- <li class="cart-fruits-quantity">
+                <span class="fruit"></span>
+                <span class="quantity></span>
+            </li> 
+            <li class="cart-fruits-total">
+                <span class="total">Total: $ </span>
+                <button class="add-btn">Add</button>
+                <button class="remove-btn">Remove</button>
+            </li>-->      
+        </ul>
+        <ul class="cart-fruits">
+            <li class="cart-fruits-total">
+                <span class="total-cost">Total: $ 0</span>
+            </li>
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
